@@ -18,7 +18,15 @@
         operator = prompt('Enter operator');
         secondValue = +prompt('Enter second value');
 
-        console.log(firstValue + secondValue);
+        switch(operator){
+            case ('+'):
+                console.log(firstValue + secondValue);
+                break;
+            default:
+                // console.log(`${firstValue} - ${secondValue}`);
+                console.log(firstValue + '-' + secondValue);
+        }
+
         </script>
         
 </body>
