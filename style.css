@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    margin-top: 40px;
+}
+
+.main-title {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.main-inputs {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.first-input, .second-input {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    height: 60px;
+    text-align: center;
+}
+
+select {
+    height: 60px;
+    width: 60px;
+    text-align: center;
+    font-size: 2rem;
+    padding-left: 16px;
+    border-radius: 10px;
+}
+
+.result-container, .equal-sign-container {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    height: 60px;
+    width: 60px;
+}

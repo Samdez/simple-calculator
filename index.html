@@ -6,10 +6,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Simple Calculator</title>
     <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-<h1>Simple calculator</h1>
+    <main class="container">
+        <div class="main-title">
+            <h1>Simple calculator</h1>
+        </div>
+        
+        <div class="main-inputs">
+            <div class="first-input">
+                <label for="first-number">Enter first number here :</label>
+            <input type="number" id="first-number">
+            </div>
+
+            <div>
+                <select name="operand" id="operand">
+                    <option value="+">+</option>
+                    <option value="-">-</option>
+                    <option value="*">x</option>
+                    <option value="/">/</option>
+                </select>
+            </div>
+
+            <div class="second-input"> 
+                <label for="second-number">Enter second number here :</label>
+                <input type="number" id="second-number">
+            </div>
+        </div>
+        
+       <div class="equal-sign-container">
+            <button class="btn btn-primary result-button">=</button>
+        </div>
+        <div class="result-container">
+            <h3 class="result-display"></h3>
+        </div>
+       
+      
+        
+    </main>
 
     <script src="script.js"></script>
 </body>
